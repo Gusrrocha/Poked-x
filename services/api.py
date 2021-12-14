@@ -29,10 +29,11 @@ def load():
         foto_url = info_poke['sprites']['other']['dream_world']['front_default']
         tipos = info_poke['types']
 
-        print(f'{id} - {nome} - {foto_url} - {tipos}')
+        print(f'Carregando.. {nome}')
         
         #cria o objeto pokemon
         novo_pokemon = Pokemon(id, nome, foto_url, tipos)
         lista_pokemons.append(novo_pokemon)
 
     return lista_pokemons
+

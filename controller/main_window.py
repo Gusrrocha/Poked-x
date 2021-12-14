@@ -8,6 +8,7 @@ class MainWindow(QMainWindow):
         uic.loadUi(FILE_UI, self)
 
         self.load_pokemons()
+        
    
     # carrega os pokemons no grind
     def load_pokemons(self):
